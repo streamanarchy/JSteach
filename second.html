@@ -1,0 +1,21 @@
+<html>
+<body>
+    <script>
+        var count = 0;
+        function zoom(){
+            console.log(document.getElementById("Blank").innerText);
+            document.getElementById("Blank").innerHTML += "CLICKED" +" "+ count;
+            count++;
+    }
+    
+    
+    </script>
+    
+    
+    <span id = "Blank"><span>BALL </span>Apple</span><br>
+    This is the second page...
+    <img height=500px src = "img/1.jpg" onclick = "zoom()">
+    </body>
+
+
+</html>
